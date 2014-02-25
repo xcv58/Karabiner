@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<root>
+  <appdef>
+    <appname>ITERM</appname>
+    <equal>com.googlecode.iterm2</equal>
+  </appdef>
+  <appdef>
+    <appname>MACVIM</appname>
+    <equal>org.vim.MacVim</equal>
+  </appdef>
+
+  <item>
+    <name>Command_L to Control (only for A,B,D,E,K,L,N,P,R,S,W,Y) (only in iTerm, MacVim)</name>
+    <identifier>remap.commandL2control_only_iTerm_MacVim</identifier>
+    <only>ITERM, MACVIM</only>
+    <autogen>__KeyToKey__ KeyCode::A, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::A, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::B, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::D, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::D, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::E, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::E, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::K, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::K, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::L, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::L, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::N, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::N, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::P, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::P, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::R, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::R, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::S, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::S, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::W, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::W, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::Y, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::Y, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+  </item>
+  <!-- <item> -->
+  <!--   <name>Command+l to Control+l (only in iTerm, MacVim)</name> -->
+  <!--   <identifier>remap.command_l2control_only_iTerm</identifier> -->
+  <!--   <only>ITERM, MACVIM</only> -->
+  <!--   <autogen>__KeyToKey__ KeyCode::L, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND, KeyCode::L, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen> -->
+  <!-- </item> -->
+  <!-- <item> -->
+  <!--   <name>Command+r to Control+r (only in iTerm, MacVim)</name> -->
+  <!--   <identifier>remap.command_r2control_r_only_iTerm</identifier> -->
+  <!--   <only>ITERM, MACVIM</only> -->
+  <!--   <autogen>__KeyToKey__ KeyCode::R, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND, KeyCode::R, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen> -->
+  <!-- </item> -->
+  <!-- <item> -->
+  <!--   <name>Command+s to Control+s (only in iTerm, MacVim)</name> -->
+  <!--   <identifier>remap.command_s2control_s_only_iTerm</identifier> -->
+  <!--   <only>ITERM, MACVIM</only> -->
+  <!--   <autogen>__KeyToKey__ KeyCode::S, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND, KeyCode::S, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen> -->
+  <!-- </item> -->
+  <!-- <item> -->
+  <!--   <name>Command_L+a to Control+a (only in iTerm, MacVim)</name> -->
+  <!--   <identifier>remap.commandL_a2control_a_only_iTerm</identifier> -->
+  <!--   <only>ITERM, MACVIM</only> -->
+  <!--   <autogen>__KeyToKey__ KeyCode::A, ModifierFlag::COMMAND_L, KeyCode::A, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen> -->
+  <!-- </item> -->
+  <!-- <item> -->
+  <!--   <name>Command_L+d to Control+d (only in iTerm, MacVim)</name> -->
+  <!--   <identifier>remap.commandL_d2control_d_only_iTerm</identifier> -->
+  <!--   <only>ITERM, MACVIM</only> -->
+  <!--   <autogen>__KeyToKey__ KeyCode::D, ModifierFlag::COMMAND_L, KeyCode::D, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen> -->
+  <!-- </item> -->
+  <!-- <item> -->
+  <!--   <name>Command_L+b to Control+b (only in iTerm, MacVim)</name> -->
+  <!--   <identifier>remap.commandL_b2control_b_only_iTerm</identifier> -->
+  <!--   <only>ITERM, MACVIM</only> -->
+  <!--   <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::COMMAND_L, KeyCode::B, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen> -->
+  <!-- </item> -->
+  <!-- <item> -->
+  <!--   <name>Command_L+y to Control+y (only in iTerm, MacVim)</name> -->
+  <!--   <identifier>remap.commandL_y2control_y_only_iTerm</identifier> -->
+  <!--   <only>ITERM, MACVIM</only> -->
+  <!--   <autogen>__KeyToKey__ KeyCode::Y, ModifierFlag::COMMAND_L, KeyCode::Y, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen> -->
+  <!-- </item> -->
+  <!-- <item> -->
+  <!--   <name>Command+e to Control+e (only in iTerm, MacVim)</name> -->
+  <!--   <identifier>remap.command_e2control_e_only_iTerm</identifier> -->
+  <!--   <only>ITERM, MACVIM</only> -->
+  <!--   <autogen>__KeyToKey__ KeyCode::E, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND, KeyCode::E, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen> -->
+  <!-- </item> -->
+  <!-- <item> -->
+  <!--   <name>Command_L+k to Control+k (only in iTerm, MacVim)</name> -->
+  <!--   <identifier>remap.commandL_k2control_k_only_iTerm</identifier> -->
+  <!--   <only>ITERM, MACVIM</only> -->
+  <!--   <autogen>__KeyToKey__ KeyCode::K, ModifierFlag::COMMAND_L, KeyCode::K, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen> -->
+  <!-- </item> -->
+  <!-- <item> -->
+  <!--   <name>Command_L+p to Control+p (only in iTerm, MacVim)</name> -->
+  <!--   <identifier>remap.commandL_p2control_p_only_iTerm</identifier> -->
+  <!--   <only>ITERM, MACVIM</only> -->
+  <!--   <autogen>__KeyToKey__ KeyCode::P, ModifierFlag::COMMAND_L, KeyCode::P, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen> -->
+  <!-- </item> -->
+  <!-- <item> -->
+  <!--   <name>Command_L+n to Control+n (only in iTerm, MacVim)</name> -->
+  <!--   <identifier>remap.commandL_n2control_n_only_iTerm</identifier> -->
+  <!--   <only>ITERM, MACVIM</only> -->
+  <!--   <autogen>__KeyToKey__ KeyCode::N, ModifierFlag::COMMAND_L, KeyCode::N, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen> -->
+  <!-- </item> -->
+  <!-- <item> -->
+  <!--   <name>Command_L to Control_L (only in MacVim) </name> -->
+  <!--   <appendix>(Pass-Through Command+Tab)</appendix> -->
+  <!--   <identifier>remap.command_l_to_Control_l_except_command_tab_only_macvim</identifier> -->
+  <!--   <only>MACVIM</only> -->
+  <!--   {{ COMMAND_L_TO_OPTION_L_EXCEPT_TAB_EXTRA }} -->
+  <!--     <include path="./snippets/modifier_tab_to_command_tab.xml"> -->
+  <!--     <replacementdef> -->
+  <!--       <replacementname>FROM_MODIFIER</replacementname> -->
+  <!--       <replacementvalue>COMMAND_L</replacementvalue> -->
+  <!--     </replacementdef> -->
+  <!--     <replacementdef> -->
+  <!--       <replacementname>TO_MODIFIER</replacementname> -->
+  <!--       <replacementvalue>CONTROL_L</replacementvalue> -->
+  <!--     </replacementdef> -->
+  <!--   </include> -->
+  <!-- </item> -->
+  <item>
+    <name>Command_R+Arrows to Control+Arrows </name>
+    <identifier>remap.commandR_leftarrow2control_leftarrow</identifier>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_R, KeyCode::CURSOR_LEFT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_R, KeyCode::CURSOR_RIGHT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_UP, ModifierFlag::COMMAND_R, KeyCode::CURSOR_UP, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_R, KeyCode::CURSOR_DOWN, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+  </item>
+
+  <item>
+    <name>Option_L+Shift+A to Control+Option+Command+M And DownArrow And Enter</name>
+    <identifier>remap.optionLshiftA2control_option_commandA</identifier>
+    <autogen>__KeyToKey__ KeyCode::A, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::M, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::S, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::CURSOR_DOWN, KeyCode::ENTER</autogen>
+  </item>
+</root>
