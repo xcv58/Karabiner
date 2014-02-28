@@ -117,11 +117,4 @@
     <autogen>__KeyToKey__ KeyCode::CURSOR_UP, ModifierFlag::COMMAND_R, KeyCode::CURSOR_UP, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
     <autogen>__KeyToKey__ KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_R, KeyCode::CURSOR_DOWN, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
   </item>
-
-  <item>
-    <name>Option_L+Shift+A to Control+Option+Command+M And DownArrow And Enter</name>
-    <identifier>remap.optionLshiftA2control_option_commandA</identifier>
-    <autogen>__KeyToKey__ KeyCode::A, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::M, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L</autogen>
-    <autogen>__KeyToKey__ KeyCode::S, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::CURSOR_DOWN, KeyCode::ENTER</autogen>
-  </item>
 </root>
