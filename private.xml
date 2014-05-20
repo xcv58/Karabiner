@@ -8,6 +8,10 @@
     <appname>MACVIM</appname>
     <equal>org.vim.MacVim</equal>
   </appdef>
+  <appdef>
+    <appname>WARCRAFT</appname>
+    <equal>org.pqrs.unknownapp.wineloader</equal>
+  </appdef>
 
   <item>
     <name>Command_L to Control (only for A,B,D,E,K,L,N,P,R,S,W,Y) (only in iTerm, MacVim)</name>
@@ -116,5 +120,16 @@
     <autogen>__KeyToKey__ KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_R, KeyCode::CURSOR_RIGHT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
     <autogen>__KeyToKey__ KeyCode::CURSOR_UP, ModifierFlag::COMMAND_R, KeyCode::CURSOR_UP, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
     <autogen>__KeyToKey__ KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_R, KeyCode::CURSOR_DOWN, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+  </item>
+  <item>
+    <name>Command_L + qw as zx to numpad 78 45 12 (only in Warcraft)</name>
+    <identifier>remap.for_warcraft</identifier>
+    <only>WARCRAFT</only>
+    <autogen>__KeyToKey__ KeyCode::Q, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::KEYPAD_7</autogen>
+    <autogen>__KeyToKey__ KeyCode::A, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::KEYPAD_4</autogen>
+    <autogen>__KeyToKey__ KeyCode::Z, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::KEYPAD_1</autogen>
+    <autogen>__KeyToKey__ KeyCode::W, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::KEYPAD_8</autogen>
+    <autogen>__KeyToKey__ KeyCode::S, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::KEYPAD_5</autogen>
+    <autogen>__KeyToKey__ KeyCode::X, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::KEYPAD_2</autogen>
   </item>
 </root>
