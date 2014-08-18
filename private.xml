@@ -9,8 +9,16 @@
     <equal>org.vim.MacVim</equal>
   </appdef>
   <appdef>
-    <appname>WARCRAFT</appname>
+    <appname>CROSSOVER</appname>
     <equal>org.pqrs.unknownapp.wineloader</equal>
+  </appdef>
+  <appdef>
+    <appname>WARCRAFT</appname>
+    <equal>com.blizzard.WarcraftIII</equal>
+  </appdef>
+  <appdef>
+    <appname>WARCRAFTIII</appname>
+		<equal>com.codeweavers.CrossOver.wineloader</equal>
   </appdef>
 
   <item>
@@ -124,7 +132,7 @@
   <item>
     <name>Command_L + qw as zx to numpad 78 45 12 (only in Warcraft)</name>
     <identifier>remap.for_warcraft</identifier>
-    <only>WARCRAFT</only>
+    <only>WARCRAFT, WARCRAFTIII</only>
     <autogen>__KeyToKey__ KeyCode::Q, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::KEYPAD_7</autogen>
     <autogen>__KeyToKey__ KeyCode::A, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::KEYPAD_4</autogen>
     <autogen>__KeyToKey__ KeyCode::Z, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::KEYPAD_1</autogen>
