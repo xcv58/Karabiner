@@ -140,4 +140,9 @@
     <autogen>__KeyToKey__ KeyCode::S, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::KEYPAD_5</autogen>
     <autogen>__KeyToKey__ KeyCode::X, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::KEYPAD_2</autogen>
   </item>
+  <item>
+    <name>Command_L+ESC to Command+` </name>
+    <identifier>remap.commandL_esc_to_command_`</identifier>
+    <autogen>__KeyToKey__ KeyCode::ESCAPE, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::BACKQUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND</autogen>
+  </item>
 </root>
