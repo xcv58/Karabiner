@@ -142,10 +142,12 @@
     <autogen>__KeyToKey__ KeyCode::X, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::KEYPAD_2</autogen>
   </item>
   <item>
-    <name>For HHKB: Command_L+ESC to Command+`, Control_L+ESC to Control+Shift+Tab, Shift_L+ESC to ~</name>
+    <name>For HHKB: Command_L+ESC to Command+`; Control_L+ESC to Control+Shift+Tab; Shift_L+ESC to ~; Option_L+Tab to Ctrl+Tab</name>
     <identifier>remap.for.HHKB</identifier>
     <autogen>__KeyToKey__ KeyCode::ESCAPE, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::BACKQUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND</autogen>
     <autogen>__KeyToKey__ KeyCode::ESCAPE, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::TAB, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
     <autogen>__KeyToKey__ KeyCode::ESCAPE, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::BACKQUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+    <autogen>__KeyToKey__ KeyCode::TAB, ModifierFlag::OPTION_L | ModifierFlag::NONE, KeyCode::TAB, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    <autogen>__KeyToKey__ KeyCode::TAB, ModifierFlag::OPTION_L, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::TAB, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
   </item>
 </root>
