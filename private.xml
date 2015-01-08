@@ -169,5 +169,11 @@
       <identifier>remap.for.HHKB.space</identifier>
       <autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::SPACE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
     </item>
+    <item>
+      <name>For Bartender: </name>
+      <appendix>Command+Ctrl+Esc -> Command+Ctrl+`</appendix>
+      <identifier>remap.for.HHKB.Bartender</identifier>
+      <autogen>__KeyToKey__ KeyCode::ESCAPE, ModifierFlag::CONTROL_L, ModifierFlag::COMMAND_L| ModifierFlag::NONE, KeyCode::BACKQUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND,  MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+    </item>
   </item>
 </root>
