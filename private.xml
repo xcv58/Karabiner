@@ -18,7 +18,7 @@
   </appdef>
   <appdef>
     <appname>WARCRAFTIII</appname>
-		<equal>com.codeweavers.CrossOver.wineloader</equal>
+    <equal>com.codeweavers.CrossOver.wineloader</equal>
   </appdef>
 
   <item>
@@ -142,12 +142,32 @@
     <autogen>__KeyToKey__ KeyCode::X, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::KEYPAD_2</autogen>
   </item>
   <item>
-    <name>For HHKB: Command_L+ESC to Command+`; Control_L+ESC to Control+Shift+Tab; Shift_L+ESC to ~; Option_L+Tab to Ctrl+Tab</name>
-    <identifier>remap.for.HHKB</identifier>
-    <autogen>__KeyToKey__ KeyCode::ESCAPE, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::BACKQUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND</autogen>
-    <autogen>__KeyToKey__ KeyCode::ESCAPE, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::TAB, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
-    <autogen>__KeyToKey__ KeyCode::ESCAPE, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::BACKQUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
-    <autogen>__KeyToKey__ KeyCode::TAB, ModifierFlag::OPTION_L | ModifierFlag::NONE, KeyCode::TAB, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
-    <autogen>__KeyToKey__ KeyCode::TAB, ModifierFlag::OPTION_L, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::TAB, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+    <name>HHKB</name>
+    <item>
+      <name>For ~: </name>
+      <appendix>Command+ESC -> Command+`</appendix>
+      <appendix>Shift_L+ESC -> ~</appendix>
+      <identifier>remap.for.HHKB.~</identifier>
+      <autogen>__KeyToKey__ KeyCode::ESCAPE, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::BACKQUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND</autogen>
+      <autogen>__KeyToKey__ KeyCode::ESCAPE, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::BACKQUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+    </item>
+    <item>
+      <name>For Tab Switch: </name>
+      <appendix>Option+Tab -> Ctrl+Tab</appendix>
+      <appendix>Ctrl+ESC -> Ctrl+Shift+Tab</appendix>
+      <appendix>Option+Shift+Tab -> Ctrl+Shift+Tab</appendix>
+      <appendix>Command+Ctrl+Tab -> Ctrl+Shift+Tab</appendix>
+      <identifier>remap.for.HHKB.tabswitch</identifier>
+      <autogen>__KeyToKey__ KeyCode::ESCAPE, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::TAB, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+      <autogen>__KeyToKey__ KeyCode::TAB, ModifierFlag::OPTION_L | ModifierFlag::NONE, KeyCode::TAB, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL</autogen>
+      <autogen>__KeyToKey__ KeyCode::TAB, ModifierFlag::OPTION_L, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::TAB, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+      <autogen>__KeyToKey__ KeyCode::TAB, ModifierFlag::CONTROL_L, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::TAB, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+    </item>
+    <item>
+      <name>For Space: </name>
+      <appendix>Ctrl+Space -> Shift+Space</appendix>
+      <identifier>remap.for.HHKB.space</identifier>
+      <autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::SPACE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+    </item>
   </item>
 </root>
