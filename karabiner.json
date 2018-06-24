@@ -319,14 +319,6 @@
                     "to": {
                         "key_code": "escape"
                     }
-                },
-                {
-                    "from": {
-                        "key_code": "right_command"
-                    },
-                    "to": {
-                        "key_code": "escape"
-                    }
                 }
             ],
             "virtual_hid_keyboard": {
