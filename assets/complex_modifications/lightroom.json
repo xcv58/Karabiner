@@ -1,0 +1,83 @@
+{
+  "title": "Lightroom Mode, a -> shift+a, s/d | ;/' -> left/right arrows.",
+  "rules": [{
+    "description": "Lightroom Mode, a -> shift+a, s/d -> left/right arrows.",
+    "manipulators": [{
+        "from": {
+          "key_code": "a"
+        },
+        "to": [{
+          "key_code": "a",
+          "modifiers": "shift"
+        }],
+        "conditions": [{
+          "type": "frontmost_application_if",
+          "bundle_identifiers": [
+            "^com.adobe.lightroomCC$"
+          ]
+        }],
+        "type": "basic"
+      },
+      {
+        "from": {
+          "key_code": "s"
+        },
+        "to": [{
+          "key_code": "left_arrow"
+        }],
+        "conditions": [{
+          "type": "frontmost_application_if",
+          "bundle_identifiers": [
+            "^com.adobe.lightroomCC$"
+          ]
+        }],
+        "type": "basic"
+      },
+      {
+        "from": {
+          "key_code": "semicolon"
+        },
+        "to": [{
+          "key_code": "left_arrow"
+        }],
+        "conditions": [{
+          "type": "frontmost_application_if",
+          "bundle_identifiers": [
+            "^com.adobe.lightroomCC$"
+          ]
+        }],
+        "type": "basic"
+      },
+      {
+        "from": {
+          "key_code": "quote"
+        },
+        "to": [{
+          "key_code": "right_arrow"
+        }],
+        "conditions": [{
+          "type": "frontmost_application_if",
+          "bundle_identifiers": [
+            "^com.adobe.lightroomCC$"
+          ]
+        }],
+        "type": "basic"
+      },
+      {
+        "from": {
+          "key_code": "d"
+        },
+        "to": [{
+          "key_code": "right_arrow"
+        }],
+        "conditions": [{
+          "type": "frontmost_application_if",
+          "bundle_identifiers": [
+            "^com.adobe.lightroomCC$"
+          ]
+        }],
+        "type": "basic"
+      }
+    ]
+  }]
+}
