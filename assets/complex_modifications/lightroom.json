@@ -13,7 +13,7 @@
         "conditions": [{
           "type": "frontmost_application_if",
           "bundle_identifiers": [
-            "^com.adobe.lightroomCC$"
+            "^com.adobe.*lightroomCC$"
           ]
         }],
         "type": "basic"
@@ -28,7 +28,7 @@
         "conditions": [{
           "type": "frontmost_application_if",
           "bundle_identifiers": [
-            "^com.adobe.lightroomCC$"
+            "^com.adobe.*lightroomCC$"
           ]
         }],
         "type": "basic"
@@ -43,7 +43,7 @@
         "conditions": [{
           "type": "frontmost_application_if",
           "bundle_identifiers": [
-            "^com.adobe.lightroomCC$"
+            "^com.adobe.*lightroomCC$"
           ]
         }],
         "type": "basic"
@@ -58,7 +58,7 @@
         "conditions": [{
           "type": "frontmost_application_if",
           "bundle_identifiers": [
-            "^com.adobe.lightroomCC$"
+            "^com.adobe.*lightroomCC$"
           ]
         }],
         "type": "basic"
@@ -73,7 +73,7 @@
         "conditions": [{
           "type": "frontmost_application_if",
           "bundle_identifiers": [
-            "^com.adobe.lightroomCC$"
+            "^com.adobe.*lightroomCC$"
           ]
         }],
         "type": "basic"
