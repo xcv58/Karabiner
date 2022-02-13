@@ -16,9 +16,9 @@
           ],
           "conditions": [
             {
-              "type": "variable_if",
+              "type": "variable_unless",
               "name": "multitouch_extension_finger_count_total",
-              "value": 1
+              "value": 0
             }
           ]
         },
@@ -273,7 +273,7 @@
       ]
     },
     {
-      "description": "Multitouch q/e/x: q->previosu-tab; e->next-tab; x->middle-click",
+      "description": "Multitouch q/e: q->previosu-tab; e->next-tab",
       "manipulators": [
         {
           "type": "basic",
@@ -293,7 +293,7 @@
             {
               "type": "variable_unless",
               "name": "multitouch_extension_finger_count_total",
-              "value": 1
+              "value": 0
             }
           ]
         },
@@ -317,6 +317,32 @@
               "value": 0
             }
           ]
+        }
+      ]
+    },
+    {
+      "description": "Multitouch actions: x-Command+w; f->Command-Click",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f"
+          },
+          "to": [
+            {
+              "pointing_button": "button1",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_unless",
+              "name": "multitouch_extension_finger_count_total",
+              "value": 0
+            }
+          ]
         },
         {
           "type": "basic",
@@ -325,7 +351,7 @@
           },
           "to": [
             {
-              "pointing_button": "button1",
+              "key_code": "w",
               "modifiers": [
                 "command"
               ]

@@ -279,8 +279,8 @@
                                 "conditions": [
                                     {
                                         "name": "multitouch_extension_finger_count_total",
-                                        "type": "variable_if",
-                                        "value": 1
+                                        "type": "variable_unless",
+                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -544,7 +544,7 @@
                         ]
                     },
                     {
-                        "description": "Multitouch q/e/x: q->previosu-tab; e->next-tab; x->middle-click",
+                        "description": "Multitouch q/e: q->previosu-tab; e->next-tab",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -588,6 +588,32 @@
                                     }
                                 ],
                                 "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Multitouch actions: x-Command+w; f->Command-Click",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "multitouch_extension_finger_count_total",
+                                        "type": "variable_unless",
+                                        "value": 0
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "f"
+                                },
+                                "to": [
+                                    {
+                                        "modifiers": [
+                                            "command"
+                                        ],
+                                        "pointing_button": "button1"
+                                    }
+                                ],
+                                "type": "basic"
                             },
                             {
                                 "conditions": [
@@ -602,10 +628,10 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "w",
                                         "modifiers": [
                                             "command"
-                                        ],
-                                        "pointing_button": "button1"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
