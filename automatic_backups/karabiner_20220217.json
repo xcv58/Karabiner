@@ -592,26 +592,8 @@
                         ]
                     },
                     {
-                        "description": "Multitouch actions: x-Command+w; f->Command-Click; c->Click",
+                        "description": "Multitouch actions: x-Command+w; f->Command-Click",
                         "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "multitouch_extension_finger_count_total",
-                                        "type": "variable_unless",
-                                        "value": 0
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "c"
-                                },
-                                "to": [
-                                    {
-                                        "pointing_button": "button1"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
                             {
                                 "conditions": [
                                     {
