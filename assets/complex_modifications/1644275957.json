@@ -1,5 +1,5 @@
 {
-  "title": "Map Left Option plus h/j/k/l to Arrows",
+  "title": "Map Left Option plus h/j/k/l to Arrows, Command+Option+j/k -> Option+up/down",
   "rules": [
     {
       "description": "Map Left Option plus h/j/k/l to Arrows",
@@ -7,13 +7,50 @@
         {
           "type": "basic",
           "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "down_arrow",
+              "modifiers": [
+                "left_option"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow",
+              "modifiers": [
+                "left_option"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
             "key_code": "h",
             "modifiers": {
               "mandatory": [
                 "left_option"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -30,9 +67,6 @@
             "modifiers": {
               "mandatory": [
                 "left_option"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -49,9 +83,6 @@
             "modifiers": {
               "mandatory": [
                 "left_option"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -68,9 +99,6 @@
             "modifiers": {
               "mandatory": [
                 "left_option"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
