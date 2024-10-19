@@ -5,7 +5,7 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "Lightroom Mode, a -> shift+a, s/d -> left/right arrows, v -> command+v.",
+                        "description": "Lightroom Mode, a -> shift+a, s/d -> left/right arrows.",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -21,24 +21,6 @@
                                     {
                                         "key_code": "a",
                                         "modifiers": "shift"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^com.adobe.*lightroomCC$"
-                                        ],
-                                        "type": "frontmost_application_if"
-                                    }
-                                ],
-                                "from": { "key_code": "v" },
-                                "to": [
-                                    {
-                                        "key_code": "v",
-                                        "modifiers": "command"
                                     }
                                 ],
                                 "type": "basic"
