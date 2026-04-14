@@ -634,7 +634,7 @@
                 },
                 {
                     "from": { "key_code": "right_shift" },
-                    "to": [{ "key_code": "right_shift" }]
+                    "to": [{ "key_code": "escape" }]
                 }
             ],
             "virtual_hid_keyboard": {
